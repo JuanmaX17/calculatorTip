@@ -1,0 +1,16 @@
+.bill{
+    padding: 19px 36px;
+    box-shadow: 2px 4px 14px -4px;
+}
+
+@media (min-width: 700px) {
+    .bill{
+        width: 84% !important;
+        max-width: 900px;
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: 1fr !important;
+        height: auto  !important;
+        gap: 31px  !important;
+        font-size: 1.2rem;
+    }
+}

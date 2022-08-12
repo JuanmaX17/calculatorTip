@@ -1,0 +1,45 @@
+.selectTip__section{
+    width: 100%;
+}
+.selectTip__items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 16px;
+    padding: 16px 0;
+    font-size: 1.12rem;
+}
+
+.selectTip__item{
+    display: grid;
+    place-items: center;
+    background: var(--Very-dark-cyan);
+    color: var(--White);
+    font-weight: 600;
+    height: 44px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: inherit;
+}
+
+.selectTip__item:last-child {
+    background: var(--Very-light-grayish-cyan);
+    color: var(--Dark-grayish-cyan);
+    font-weight: bold;
+}
+.selectTip__subTitle{
+    color: var(--Dark-grayish-cyan);
+}
+.selectTip__select{
+    background: var(--Strong-cyan);
+    color: var(--Very-dark-cyan);
+}
+
+.selectTip__custom{
+    text-align: center;
+    color: var(--Very-dark-cyan);
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
