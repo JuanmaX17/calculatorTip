@@ -6,7 +6,6 @@ export const useChange = (handleIsOkay, name) => {
         data: value,
       };
       const newState = { ...state, [name]: form };
-      console.log('state2', newState);
       return newState;
     });
   };

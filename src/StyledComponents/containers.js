@@ -4,7 +4,6 @@ function validateBg({ bg = 'primary' }) {
   if (bg === 'primary') return 'var(--Light-grayish-cyan)';
   if (bg === 'secondary') return 'var(--White)';
   if (bg === 'tertiary') return 'var(--Very-dark-cyan);';
-  console.warn('color no establecido');
   return 'var(--Strong-cyan)';
 }
 

@@ -21,7 +21,6 @@ export function SelectTip({
         data: value,
       };
       const newState = { ...state, [name]: form };
-      console.log('state', newState);
       return newState;
     });
   };
