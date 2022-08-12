@@ -6,7 +6,6 @@ import { Tip } from '../Tip/index.tip';
 import { Button } from '../../StyledComponents/buttons';
 
 export function ResultTip({ inputData, reset }) {
-  console.log('ole', inputData);
   let tipAmoun = 0;
   let total = 0;
   if (inputData) {
@@ -17,7 +16,6 @@ export function ResultTip({ inputData, reset }) {
     const result2 = (bill + (bill * selectTip) / 100) / nOfPeople;
     tipAmoun = result1.toFixed(2);
     total = result2.toFixed(2);
-    console.log('bool', total);
   }
   return (
     <WrapperCard bg="tertiary" rows="autp auto auto">
