@@ -1,0 +1,26 @@
+.tip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 86%;
+    font-weight: 700;
+    font-size: 0.9rem;
+
+}
+
+.tip > span {
+    font-size: 1.8rem;
+    color: var(--Strong-cyan);
+}
+.tip__mount{
+    display: flex;
+    flex-direction: column;
+}
+
+.tip__mount span:first-child {
+    color: var(--Light-grayish-cyan);
+}
+
+.tip__mount span:last-child {
+    color: var(--Dark-grayish-cyan);
+}

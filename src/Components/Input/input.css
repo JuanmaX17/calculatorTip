@@ -1,0 +1,15 @@
+.inputFiled{
+    position: relative;
+}
+
+.inputBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.label {
+    color: var(--Dark-grayish-cyan);
+    font-weight: 700;
+} 
